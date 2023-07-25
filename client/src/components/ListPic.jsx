@@ -5,10 +5,11 @@ function ListPic(props) {
       props.delete(props.title)
     }
   return (
-    <div>
+    <div className="container-list-pic">
         <span>{props.title}</span>
         <img src={props.url} alt={props.title} />
-        <button onClick={handleDelete}>DELETE</button>
+        <button  className="button-delete" onClick={handleDelete}>DELETE</button>
+        <button className="button-update">UPDATE</button>
     </div>
   );
 }

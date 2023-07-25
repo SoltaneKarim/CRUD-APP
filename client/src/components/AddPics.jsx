@@ -11,7 +11,7 @@ function AddPics() {
     return (
       <div className="add-pics">
         <input id="description" type="text" placeholder="add title.." onChange={(event)=>{setTitle(event.target.value)}}/>
-        <input id="url" type="text" placeholder="add url.." onChange={(event)=>{setUrl(event.target.value)}}/>
+        <input id="url" type="text" placeholder="add url.." onChange={(event)=>{setUrl(event.target.value)}}/> 
         <button id="confirm" onClick={validate}>CONFIRM</button>
       </div>
     );

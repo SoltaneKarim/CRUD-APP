@@ -1,7 +1,58 @@
-.App {
-  text-align: center;
+.add-pics {
+  /* margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px; */
+  display: flex;
+  margin: 30px 0 30px 20%
 }
 
-.add-pics {
-  margin-bottom: 1rem;
+input {
+  width: 35%;
+  height: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  height: 31px;
+}
+
+.button-update{
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.button-delete {
+  width: 40%;
+  margin-left: 10%;
+  margin-bottom: 15px;
+}
+
+.container-list-pic {
+  display: block;
+  width: 70%;
+  border: 10px;
+  border: solid  2px;
+  border-radius: 1%;
+  margin-bottom: 10px;
+  margin-left: 15%;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+img {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 15px;
+  border: solid 1px;
+  border-radius: 1%;
 }
